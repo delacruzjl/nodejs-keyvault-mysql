@@ -1,0 +1,21 @@
+{
+  "name": "mysql-api",
+  "version": "1.0.0",
+  "description": "mysql and azure test",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "nodemon": "nodemon ./server.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@azure/identity": "^1.0.3",
+    "@azure/keyvault-secrets": "^4.0.4",
+    "express": "^4.17.1",
+    "mysql": "github:mysqljs/mysql"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
