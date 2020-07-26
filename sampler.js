@@ -25,7 +25,7 @@ async function getMsqlConnection() {
         password: kvPwd.value,
         database: kvDb.value,
         insecureAuth: true,
-        ssl: true
+        ssl: { rejectUnauthorized: true }
     }
 
     return mysql.createConnection(config)
